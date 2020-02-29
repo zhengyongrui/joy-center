@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27000
+      username: admin
+      password: 1234.abcd
+      database: mongo_db
+  cloud:
+    nacos:
+      discovery:
+        #指定nacos服务地址，不需要http等前缀，直接域名或者ip
+        server-addr: 120.24.254.178:80
+        #nacos的命名空间只能使用id
+        #namespace: 800bbc31-b9ab-4177-9ae5-96be652eadfe
+        #nacos集群名称 深圳机房
+        cluster-name: SZ
+        metadata:
+          #本服务的版本号
+          version: v1

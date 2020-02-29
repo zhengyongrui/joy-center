@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 120.24.254.178:80
+        file-extension: yaml

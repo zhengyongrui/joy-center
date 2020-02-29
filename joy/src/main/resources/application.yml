@@ -1,0 +1,12 @@
+server:
+  port: 8201
+spring:
+  application:
+    name: account-center
+  profiles:
+    #启动的默认配置
+    active: common, prod
+info:
+  app_name: 娱乐服务
+  author: 牙子
+  email: zyr@outlook.com
