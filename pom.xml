@@ -13,6 +13,9 @@
     <groupId>com.zyr</groupId>
     <artifactId>joy-center</artifactId>
     <version>1.0.0</version>
+    <name>joy-center</name>
+    <description>快乐中心</description>
+
     <modules>
         <module>joy</module>
         <module>crawler</module>

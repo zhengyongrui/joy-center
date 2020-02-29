@@ -11,7 +11,7 @@
     <artifactId>joy</artifactId>
     <version>1.0.0</version>
     <name>joy</name>
-    <description>娱乐中心</description>
+    <description>快乐中心</description>
 
     <properties>
         <java.version>1.8</java.version>
